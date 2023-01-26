@@ -1,0 +1,11 @@
+type Employer {
+    id: ID
+    name: String!
+    lastName: String
+    companyName: String
+    birthDate: String!
+}
+
+type Query {
+    getEmployers: [Employer]!
+}
